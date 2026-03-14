@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Мой сайт</title>
+
+<style>
+
+body{
+font-family: Arial;
+margin:0;
+background:#f2f2f2;
+}
+
+header{
+background:#222;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+.container{
+max-width:1000px;
+margin:auto;
+padding:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+margin-bottom:20px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+img{
+width:100%;
+border-radius:10px;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#222;
+color:white;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Добро пожаловать</h1>
+<p>Мой сайт с фотографиями и информацией</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>Обо мне</h2>
+<p>Здесь можно написать любую информацию.</p>
+</div>
+
+<div class="card">
+<h2>Фотография</h2>
+<img src="photo1.jpg">
+<p>Описание фотографии.</p>
+</div>
+
+<div class="card">
+<h2>Ещё фото</h2>
+<img src="photo2.jpg">
+<p>Описание второй фотографии.</p>
+</div>
+
+</div>
+
+<footer>
+© 2026 Мой сайт
+</footer>
+
+</body>
+</html>
